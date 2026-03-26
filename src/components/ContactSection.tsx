@@ -54,7 +54,7 @@ const ContactSection = () => {
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                   <Mail size={18} className="text-primary" />
                 </div>
-                tushar@example.com
+                tusharkashyap9368@gmail.com
               </a>
               <a
                 href="https://linkedin.com/in/tusharkashyap"
@@ -68,7 +68,7 @@ const ContactSection = () => {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/tusharkashyap"
+                href="https://github.com/kashyaptushar1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors"

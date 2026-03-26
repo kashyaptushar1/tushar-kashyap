@@ -98,11 +98,11 @@ const HeroSection = () => {
               <ArrowDown size={18} /> View Projects
             </Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="rounded-full gap-2">
-            <Link to="/contact">
-              <FileText size={18} /> Download Resume
-            </Link>
-          </Button>
+         <Button asChild variant="outline" size="lg" className="rounded-full gap-2">
+  <a href="https://drive.google.com/file/d/1a0skPYFzOTKKEROyNNKcIHVwN_CKeI87/view?usp=sharing" target="_blank" >
+     View Resume
+  </a>
+</Button>
         </motion.div>
       </div>
     </section>
