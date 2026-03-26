@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const roles = [
   "Software Engineer",
@@ -93,14 +94,14 @@ const HeroSection = () => {
           className="flex flex-wrap items-center justify-center gap-4"
         >
           <Button asChild size="lg" className="rounded-full gap-2 glow-effect">
-            <a href="#projects">
+            <Link to="/projects">
               <ArrowDown size={18} /> View Projects
-            </a>
+            </Link>
           </Button>
           <Button asChild variant="outline" size="lg" className="rounded-full gap-2">
-            <a href="#contact">
+            <Link to="/contact">
               <FileText size={18} /> Download Resume
-            </a>
+            </Link>
           </Button>
         </motion.div>
       </div>
